@@ -4,19 +4,20 @@ def intersection(arrays):
     """
 
     intersect = {}
-    result = []
+    # result = []
 
-    for i in arrays:
-        for num in i:
+    for array in arrays:
+        for num in array:
             if num in intersect:
                 intersect[num] += 1
             else:
                 intersect[num] = 1
 
-            for num in intersect:
-                result.append(num)
+            # for num in intersect:
+                # result.append(num)
 
-    return result
+    # return result
+    return [key for key, value in intersect.items() if value == len(arrays)]
 
 
 if __name__ == "__main__":
