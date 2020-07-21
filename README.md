@@ -34,7 +34,7 @@ Be prepared to demonstrate your understanding of this week's concepts by answeri
 5. Automatic resizing =>
    `when the hash table length is automatically resized when the load factor reaches a certain ratio.`
 6. Various use cases for hash tables =>  
-   `Storing anything where order does not matter, but speed of access does. Anything that has a key:value pairing, or that does not use a integer as a unique identifier.`
+   `Storing anything where order does not matter, but speed of access does. Anything that has a key:value pairing, or that does not use a integer as a unique identifier. Also compilers, caching, password authenticaiton`
 
 We expect you to be able to answer questions in these areas. Your responses contribute to your Sprint Challenge grade.
 
