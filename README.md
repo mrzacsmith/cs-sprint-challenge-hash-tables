@@ -22,12 +22,19 @@ Commit your code regularly and meaningfully. This practice helps both you (in ca
 
 Be prepared to demonstrate your understanding of this week's concepts by answering questions on the following topics. You might prepare by writing down your answers beforehand.
 
-1. Hashing functions
-2. Collision resolution
-3. Performance of basic hash table operations
-4. Load factor
-5. Automatic resizing
-6. Various use cases for hash tables
+1. Hashing functions =>
+   `Hash(key) -> index` `{ "key" : "Zac", "value" : "phone #" }`
+   `Array that uses the index to store the ke:value pair, and it associated the index to the key`
+2. Collision resolution =>
+   `each slot can hold a reference to a collection or chain of items. A linked list can be used to chain a list of collisions, so once we have the key, then can do a quick search of the chains in the same index. Open addressing is when a index is filled, it will be moved to the right until a opening is found.`
+3. Performance of basic hash table operations =>
+   `Taking collisions into account, worst case: search, insertation and deletation operations are linear 0(n) and not constant. Average case is constabt 0(1) if handle collisions well and do an excellent job of spreading data evenly across the hash table.`
+4. Load factor =>
+   `(number of items) / (total number of slots) and should resize hash table when load factor is approx 0.7. Typically double the size of the hash table. Resizing is constant time o(1)`
+5. Automatic resizing =>
+   `when the hash table length is automatically resized when the load factor reaches a certain ratio.`
+6. Various use cases for hash tables =>  
+   `Storing anything where order does not matter, but speed of access does. Anything that has a key:value pairing, or that does not use a integer as a unique identifier.`
 
 We expect you to be able to answer questions in these areas. Your responses contribute to your Sprint Challenge grade.
 
